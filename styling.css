@@ -1,52 +1,74 @@
 body{
-    background-color: #f0e7ff;
+    background-color: rgb(244, 232, 255);
     margin: auto 150px auto 150px;
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
-img{
-    width: 250px;
-    height: 150px;
+header img{
+    width: 280px;
     margin: auto;
+    padding-bottom: 30px;
 }
-div{
+main div{
     text-align:initial;
     font-size: 14px;
-    background-color: #6d1bd2ed;
-    color: #f0e7ff;
+    background-color: rgba(120, 75, 220);
+    color: rgb(240, 241, 255);
     border-radius: 8px;
-    margin: 45px auto 45px auto;
-    padding: 30px 35px 30px 30px;
-    display: block;
+    margin: 40px auto;
+    padding: 32px;
+    width: 650px;
 }
 h1{
-    font-size: 45px;
-    font-style: bold;
-    color: #5b06c3;
+    font-size: 48px;
+    font-weight:bolder;
+    color: rgb(90, 50, 196);
 }
-h5{
-    margin-top: 40px;
-    font-style:normal;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    color: rgb(104, 104, 104);
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 14px 0;
+    padding-left: 12px;
+    border-left: 5px solid transparent;
 }
 a{
     background-color: rgb(244, 236, 160);
-    border-radius: 2px;
-    padding: 2px 5px 2px 5px;
+    border-radius: 3px;
+    padding: 2px 5px;
     text-decoration: none;
-    margin: auto;
+    color: rgb(37, 3, 108);
 }
-li{
-    list-style:square;
-    color: rgb(255, 241, 90);
+a:hover,
+a:active{
+    background-color: rgb(250, 201, 40);
+}
+footer{
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer h5{
+    margin-top: 40px;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 120;
+    color: rgb(104, 104, 104);
+}
+.important{
+    color: rgb(255, 241, 120);
+    border-color: rgb(247, 215, 85);
 }
 #button{
     color: black;
-    background-color: rgb(255, 205, 23);
-    padding: 13px;
+    background-color: rgb(250, 201, 38);
+    color: rgb(58, 44, 2);
+    padding: 13px 20px;
     font-size: 15px;
     border-radius: 8px;
     margin: auto;
+}
+#button:hover, #button:active{
+    background-color: rgb(250, 188, 69);
 }
